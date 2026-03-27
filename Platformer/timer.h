@@ -6,7 +6,7 @@ class Timer
 	bool timeout;
 
 public:
-	Timer(float length) : length(length), time(0)
+	Timer(float length) : length(length), time(0), timeout(false)
 	{
 	}
 
